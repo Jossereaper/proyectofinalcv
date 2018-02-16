@@ -1,6 +1,5 @@
 			
 		body {
-				background-color: rgb(153, 204, 255);
 				background:linear-gradient(#99ccff, white);
 				color: #666;
 				margin: 0;
@@ -8,26 +7,46 @@
 				font-family: arial;
 				font-size: 1em;
 				line-height: 1.5em;
-				padding-top: 80px; /* Relleno superior igual a la altura de la cabecera*/
+				padding-top: 80px; /* Relleno superior */
 		}
 
 
 		h1 {
-				font-size: 2.3em;
+				font-size: 2.5em;
 				line-height: 1.3em;
 				margin: 15px 0;
 				text-align: center;
 				font-weight: 300;
 		}
+
+
+		h3 {
+				font-size: 1.8em;
+				line-height: 1.3em;
+				margin: 15px 0;
+				text-align: center;
+				font-weight: 300;
+		}
+
+		h5 {
+				font-size: 1.8em;
+				line-height: 1.3em;
+				margin: 15px 0;
+				text-align: left;
+				font-weight: 300;
+		}
  
+
 		p {
 				margin: 0 0 1.5em 0;
+				text-align:center;
 		}
 	 
 		img {
 	
 				max-width: 100%;
 				height: auto;
+
 		}
 
 
@@ -53,11 +72,12 @@
 				text-decoration: none;
 		}
 			
+		/* Color de fondo de los botones */
 		nav ul li a:hover {
 				background: #0b76a6;
 		}	
 
-		
+		/* Propiedades boton central del index.html "entra en mi cv" */
 		article ul{
 				padding: 1px;
 				overflow: hidden;
@@ -90,15 +110,6 @@
 
 
 
-			#main-header {
-				background: #333;
-				color: white;
-				height: 80px;
-			}
-
-			#main-header {
-				color: white;
-			}
 
 			#logo-header {
 				float: left;
@@ -136,6 +147,7 @@
 				padding: 40px;
 			}
 
+			/*Propiedades pie de pagina*/
 			#main-footer {
 				background: #333;
 				color: white;
@@ -150,15 +162,16 @@
 			#main-footer a {
 				color: white;
 			}
-
+			
+			/*Propiedades cabeza de pagina*/
 			#main-header {
-				background: #333;
+				background: grey;
 				color: white;
 				height: 80px;
-				width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
-				left: 0; /* Posicionamos la cabecera al lado izquierdo */
-				top: 0; /* Posicionamos la cabecera pegada arriba */
-				position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+				width: 100%;
+				left: 0;
+				top: 0;
+				position: fixed;
 			}	
 
 
