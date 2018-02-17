@@ -50,6 +50,12 @@
 		}
 
 
+		img.pequeña{
+			width: 60px; height: 50px;
+			float: center;
+		}
+
+
 		nav {
 				float: right;
 		}
@@ -108,9 +114,6 @@
 
 
 
-
-
-
 			#logo-header {
 				float: left;
 				padding: 15px 0 0 20px;
@@ -135,7 +138,8 @@
 			}
 
 			#main-content {
-				background: white;
+				
+				background:linear-gradient(#F5FFFA,#FAFAD2);
 				width: 90%;
 				max-width: 800px;
 				margin: 20px auto;
@@ -148,6 +152,16 @@
 			}
 
 			/*Propiedades pie de pagina*/
+			#main-footer1 {
+				background: #333;
+				color: white;
+				text-align: center;
+				height: 60px;
+				width: 100%;
+				overflow: hidden;
+			
+			}
+
 			#main-footer {
 				background: #333;
 				color: white;
@@ -155,6 +169,7 @@
 				padding: 20px;
 				margin-top: 40px;
 			}
+
 			#main-footer p {
 				margin: 0;
 			}
@@ -164,8 +179,18 @@
 			}
 			
 			/*Propiedades cabeza de pagina*/
+			#main-header1 {
+				background:linear-gradient(#A9A9A9, grey);
+				color: white;
+				height: 65px;
+				width: 100%;
+				left: 0;
+				top: 0;
+				position: fixed;
+			}	
+
 			#main-header {
-				background: grey;
+				background:linear-gradient(#C0C0C0,#E0FFFF);
 				color: white;
 				height: 80px;
 				width: 100%;
@@ -175,3 +200,7 @@
 			}	
 
 
+			.reloj {
+				font-size:20px;
+				overflow: hidden;
+			}
