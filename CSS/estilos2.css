@@ -80,7 +80,7 @@
 			
 		/* Color de fondo de los botones */
 		nav ul li a:hover {
-				background: #0b76a6;
+				background:linear-gradient(#99ccff, grey);
 		}	
 
 		/* Propiedades boton central del index.html "entra en mi cv" */
@@ -111,7 +111,7 @@
 				padding: 20%;
 				float: none;
 				}
-
+		/*formato datos de contacto*/
 		dd{
 			text-align:center;
 		}
@@ -217,7 +217,7 @@
 			}	
 
 			#main-header {
-				background:linear-gradient(#C0C0C0,#E0FFFF);
+				background:linear-gradient(#A9A9A9, grey);
 				color: white;
 				height: 80px;
 				width: 100%;
