@@ -112,7 +112,34 @@
 				float: none;
 				}
 
+		dd{
+			text-align:center;
+		}
 
+
+		table {
+	    	font-family: arial, sans-serif;
+	    	text-align:center;
+	    	border-collapse: collapse;
+	    	width: 100%;
+		}
+
+		th{
+			border: 1px solid #dddddd;
+		    text-align: center;
+		    padding: 8px;
+		    font-size:small;
+		}
+
+		td{
+		    border: 1px solid #dddddd;
+			padding: 8px;
+		    text-align:center;
+		}
+
+		tr:nth-child(even) {
+    		background-color: #dddddd;
+		}
 
 			#logo-header {
 				float: left;
