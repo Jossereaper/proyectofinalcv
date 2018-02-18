@@ -7,7 +7,7 @@
 				font-family: arial;
 				font-size: 1em;
 				line-height: 1.5em;
-				padding-top: 80px; /* Relleno superior */
+				padding-top: 80px;
 		}
 
 
@@ -65,22 +65,26 @@
 				padding: 0;
 				list-style: none;
 				padding-right: 20px;
+
 		}
 	
 		nav ul li {
 				display: inline-block;
 				line-height: 80px;
+				
 		}
 			
 		nav ul li a {
 				display: block;
 				padding: 0 10px;
 				text-decoration: none;
+				
 		}
 			
 		/* Color de fondo de los botones */
 		nav ul li a:hover {
 				background:linear-gradient(#99ccff, grey);
+				
 		}	
 
 		/* Propiedades boton central del index.html "entra en mi cv" */
@@ -90,6 +94,7 @@
 				background-color: rgb(51, 153, 255);
 				width: 200px
 				margin: 0 auto;
+				
 				}
 
 		
@@ -103,6 +108,7 @@
 				text-decoration: none;
 				font-family: arial;
 				float: none;
+				width: 95%;
 				}
 
 		article li a:hover {
