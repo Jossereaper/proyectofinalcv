@@ -1,12 +1,7 @@
-Alert("mensaje") {
-	var mensaje = confirm("Quieres descargar mi CV?");
+var r = confirm( "No olvides descargar mi CV" );
 
-	if(mensaje){
-		alert("Pulsa en la imagen CV")
-	}
-
-
-	else{
-		alert("Deacuerdo...")
-	}
+if( r ) {
+	alert("Pulsa en la imagen de hoja CV para descargar")
+} else {
+	alert("Siempre estas a tiempo a descargarlo")
 }
